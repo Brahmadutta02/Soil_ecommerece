@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.material-icons.md-36 { font-size: 36px; }
+
+.header{
+  text-align:center;
+  background-color: #046169;
+  margin: 0;
+}
+
+.header h1, .header p{
+  color: White;
+}
+
+.main h2 {
+  text-align: center;
+}

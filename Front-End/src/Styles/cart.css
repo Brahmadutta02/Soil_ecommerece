@@ -1,0 +1,73 @@
+/* cart.css */
+.cart-container {
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  width: 99vw;
+  margin: auto;
+  right: 0vw;
+  overflow : visible;
+  height: auto;
+}
+
+.cart-page {
+  /* background-color: #00acc1; */
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px 8px 0 0;
+}
+
+.products {
+  background-color: #f6f2f2;
+  padding: 10px;
+  border-radius: 8px;
+  width: 83vw;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 50px 0;
+  position: relative;
+  width: 300px;
+  top: -30px;
+
+}
+
+.cart-item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  left: 60vw;
+}
+
+.cart-item-details span {
+  margin: 5px 0;
+}
+
+.cart-total {
+  text-align: right;
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #bed8d4;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 235px;
+  position: relative;
+  left: 85vw;
+  bottom: 35vw;
+}
+
+.box {
+  border: 1px solid #ccc; /* Add a border to the box */
+  padding: 10px; /* Add some padding inside the box */
+  border-radius: 5px; /* Optional: add rounded corners */
+  background-color: #f9f9f9; /* Optional: add a background color */
+  display: inline-block; /* Ensures the box fits its content */
+  margin: 10px 0; /* Optional: add some margin for spacing */
+}

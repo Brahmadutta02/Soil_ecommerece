@@ -1,0 +1,14 @@
+.login {
+    display:flex;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.submit_text {
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    border-radius: 30px;
+}
